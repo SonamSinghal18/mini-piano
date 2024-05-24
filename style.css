@@ -1,9 +1,8 @@
-*::before, *::after{
+ *::before, *::after {
 box-sizing: border-box;
 }
 body{
     margin:0;
-    padding: 0;
     align-items:center;
     background-color: #49494f;
     min-height: 100vh;
@@ -39,11 +38,6 @@ header h2{
     margin-left: 50px;
     margin-top: 40px;
     font-size: 1.8rem;
-}
-.keys-checkbox input{
-    margin-top: 20px;
-    accent-color: #f6f5f7;
-    margin-right: 60px;
 }
 .white {
     display: flex;
@@ -98,6 +92,14 @@ header h2{
   .black.active {
     background: #333;
 }
+
+/* @media(min-width:700px) and (max-width:999px){
+    body {
+      width:80%;
+      height:100%;
+      page-orientation: landscape;
+    }
+}) */
 
 
 
