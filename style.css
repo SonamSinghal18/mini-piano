@@ -26,14 +26,6 @@ body{
     justify-content: center;
     padding: 10px 40px 40px 40px;
 }
-/* .piano-keys{
-    display: flex;
-    margin-top: 100px;
-}
-.keys{
-    margin-top: 100px;
-    display: flex;
-} */
 
 .wrapper header {
     background-color: #000;
@@ -48,27 +40,11 @@ header h2{
     margin-top: 40px;
     font-size: 1.8rem;
 }
-/* header .column{
-    display: flex;
-    align-items: center;
-    margin-right: 80px;
-} */
-/* header .column span{
-    margin-top: 20px;
-    font-weight: 500;
-    margin-left: 50px;
-    font-size: 1.19rem;
-} */
 .keys-checkbox input{
     margin-top: 20px;
     accent-color: #f6f5f7;
     margin-right: 60px;
 }
-/*.key{
-    height: calc(var(--width)*4);
-    width: var(--width);
-}*/
-
 .white {
     display: flex;
     position:relative;
@@ -122,6 +98,8 @@ header h2{
   .black.active {
     background: #333;
 }
+
+
 
 
 

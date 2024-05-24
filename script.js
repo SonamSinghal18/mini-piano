@@ -27,3 +27,7 @@ function playNote(key){
         key.classList.remove('active')
     })
 }
+
+window.matchMedia("(orientation: portrait)").addEventListener("change",e=>{
+    const portrait =a.matches
+})
