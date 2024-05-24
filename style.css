@@ -2,16 +2,15 @@
 box-sizing: border-box;
 }
 body{
-    margin:0;
     align-items:center;
-    background-color: #49494f;
+    background-color: #bcbcc9;
     min-height: 100vh;
     display:flex;
     justify-content:center;
 }
 
 .conatiner{
-    width: 100%;
+    width: 90%;
     height:100vh;
     display:flex;
     justify-content: center;
